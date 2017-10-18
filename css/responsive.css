@@ -45,6 +45,14 @@
   .header-content h1 {
    font-size: 55px;
   }
+  .feature-content {
+    max-width: 360px;
+    margin: 0 auto 30px;
+  }
+  .feature-content-title,
+  .feature-content-description {
+   text-align: center;
+  }
   .footer-content h4 { font-size: 16px; }
   .navbar-nav>li { display: block; }
   .navbar-inverse {
