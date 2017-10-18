@@ -37,6 +37,18 @@ a:hover { text-decoration: none; }
 header {
   padding: 235px 0;
 }
+
+.header-content  h1 {
+  color: #fff;
+  font-size: 125px;
+  text-transform: uppercase;
+  text-shadow: 3px 3px #000;
+}
+.header-content h4 {
+  color: #fff;
+  font-size: 40px;
+  text-shadow: 1px 1px #333;
+}
 .single-page-nav { text-align: center; }
 /* End Header CSS */
 
@@ -60,6 +72,8 @@ header {
     margin-top: 10px;
 }
 
+
+
 /* Slick Nav CSS */
 .slicknav_menu {
     display:none;
@@ -70,7 +84,6 @@ header {
 .slicknav_menu {
   background: #40475a none repeat scroll 0 0;
 }
-
 
  .navbar-inverse {
    background: #000428;  /* fallback for old browsers */
@@ -96,7 +109,6 @@ none repeat scroll 0 0;
     -webkit-transition: all 0.3s ease;
             transition: all 0.3s ease;
 }
-
 .navbar-inverse .navbar-nav > li > a.current,
 .navbar-inverse .navbar-nav > li > a:hover {
         background: #19547b;
@@ -105,7 +117,6 @@ none repeat scroll 0 0;
     display: inline-block;
     float: none;
 }
-
 .navbar .navbar-collapse {
     text-align: center;
 }
