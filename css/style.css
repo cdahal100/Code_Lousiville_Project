@@ -23,7 +23,6 @@ img {
   height: auto;
   border: none;
 }
-
 h1 {
   font-size: 36px;
 }
@@ -42,7 +41,6 @@ a:hover { text-decoration: none; }
 header {
   padding: 235px 0;
 }
-
 .header-content  h1 {
   color: #fff;
   font-size: 125px;
@@ -55,7 +53,6 @@ header {
   text-shadow: 1px 1px #333;
 }
 .single-page-nav { text-align: center; }
-/* End Header CSS */
 
 /* Start Feature CSS */
 .green-text { color: #178A27; }
@@ -68,7 +65,6 @@ header {
 .red-btn { background: #852406; }
 .red-btn:hover { background: #C9302C; }
 .feature-content {
-    /*background: #383E4C;*/
     background: #F2F2F2;
     padding: 40px 40px;
 }
@@ -116,7 +112,6 @@ div#service-area-main {
     color: #fff;
     font-size: 18px;
 }
-/* End Services CSS */
 
 /* Start Footer CSS */
 .footer-content  h1 {
@@ -138,8 +133,6 @@ div#service-area-main {
     margin-top: 10px;
 }
 
-
-
 /* Slick Nav CSS */
 .slicknav_menu {
     display:none;
@@ -150,6 +143,7 @@ div#service-area-main {
 .slicknav_menu {
   background: #40475a none repeat scroll 0 0;
 }
+
 /*************navigation******************/
  .navbar-inverse {
    background: #000428;  /* fallback for old browsers */
