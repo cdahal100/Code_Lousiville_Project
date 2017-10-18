@@ -1,0 +1,120 @@
+/* Media Queries -------------*/
+
+
+/*    Tablet Layout: 768px. */
+.navbar-nav > li {
+  padding: 6px;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 16px;
+}
+}
+@media only screen and (max-width: 1024px) {
+  header {
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  header {
+    height: 75vh;
+    padding: 0 15px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  ul#menu { display:none; }
+
+  .slicknav_menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background:none;
+  }
+  .header-content h1 {
+   font-size: 55px;
+  }
+  .footer-content h4 { font-size: 16px; }
+  .navbar-nav>li { display: block; }
+  .navbar-inverse {
+    background: none;
+    border: none;
+  }
+  .navbar-inverse .navbar-toggle { background-color: #333; }
+  .navbar-inverse .navbar-collapse,
+  .navbar-inverse .navbar-form {
+    background-color: #49505F;
+  }
+  .navbar .navbar-nav {
+    width: 100%;
+    margin:0;
+  }
+  .navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .navbar-nav>li {
+    width: 100%;
+    border-bottom: 1px solid #999;
+    padding:0px;
+  }
+  .navbar-nav>li:last-child { border-bottom: none;  }
+  .navbar-inverse .navbar-nav>li>a {
+    background:none;
+    border: none;
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .navbar-inverse .navbar-nav>li>a:focus,
+  .navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #383E4C;
+  }
+  .navbar-inverse .navbar-nav>.active>a,
+  .navbar-inverse .navbar-nav>.active>a:focus,
+  .navbar-inverse .navbar-nav>.active>a:hover {
+    background: #383E4C;
+  }
+  .navbar-inverse .navbar-nav > li > a { font-size: 16px; }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .single-page-nav {
+    background-color: #383E4C;
+    max-height: 0;
+    -webkit-transition: max-height 0.8s;
+            transition: max-height 0.8s;
+    overflow: hidden;
+  }
+  /*http://css3.bradshawenterprises.com/animating_height/*/
+  .single-page-nav.show {
+    max-height: 250px;
+    overflow: auto;
+  }
+  /*    Wide Mobile Layout: 480px. */
+  @media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header-content h1 {
+      font-size: 70px;
+    }
+  }
+
+  @media only screen and (max-width: 520px) {
+    .col-xxs-12 {
+      width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    header { height: 50vh; }
+  }

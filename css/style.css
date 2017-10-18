@@ -84,7 +84,7 @@ header {
 .slicknav_menu {
   background: #40475a none repeat scroll 0 0;
 }
-
+/*************navigation******************/
  .navbar-inverse {
    background: #000428;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
