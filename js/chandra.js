@@ -12,6 +12,11 @@ $(function() {
   speed: 0.2
   });
 
+  $('.contact-section').parallax({
+  imageSrc: 'img/2-4.jpg',
+  speed: 0.2
+  });
+
   //Single Page Navigation
   $('.single-page-nav').singlePageNav({
     offset: $('.single-page-nav').outerHeight(),
@@ -19,7 +24,7 @@ $(function() {
     filter: ':not(.external)',
     updateHash: true
   });
-  
+
   $('.navbar-toggle').click(function(){
     $('.single-page-nav').toggleClass('show');
   });
