@@ -84,6 +84,27 @@ z-index: 999;
 }
 .single-page-nav { text-align: center; }
 
+div#team-area-main {
+    float: left;
+    width: 100%;
+    margin-top:-100px;
+}
+.our-team{
+  margin:45px 0px 85px;
+}
+.team  h1 {
+  color: #fff;
+  text-transform: capitalize;
+  text-shadow: 2px 2px #aaa;
+  margin-bottom: 20px;
+}
+.team > p {
+    color: #fff;
+    font-size: 18px;
+}
+
+
+
 /* Start Feature CSS */
 .green-text { color: #178A27; }
 .blue-text { color: #1686C1; }
