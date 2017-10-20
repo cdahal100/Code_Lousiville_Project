@@ -61,9 +61,11 @@
     max-width: 360px;
     margin: 0 auto 30px;
   }
-  .feature-content-title,
-  .feature-content-description {
+  .feature-content-title {
    text-align: center;
+  }
+  .feature-content-description{
+    text-align: justify;
   }
   .footer-content h4 { font-size: 16px; }
   .navbar-nav>li { display: block; }
