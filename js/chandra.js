@@ -1,5 +1,6 @@
 // HTML document is loaded. DOM is ready.
 $(function() {
+
   // Parallax
   $('.intro-section').parallax({
   imageSrc: 'img/2-2.jpg',
@@ -17,6 +18,7 @@ $(function() {
   imageSrc: 'img/2-4.jpg',
   speed: 0.2
   });
+
   // jQuery Scroll Up / Back To Top Image
   $.scrollUp({
         scrollName: 'scrollUp',      // Element ID
@@ -31,7 +33,6 @@ $(function() {
     });
   // ScrollUp Placement
   $( window ).on( 'scroll', function() {
-
     // If the height of the document less the height of the document is the same as the
     // distance the window has scrolled from the top...
     if ( $( document ).height() - $( window ).height() === $( window ).scrollTop() ) {
@@ -42,6 +43,7 @@ $(function() {
         $('#scrollUp').css( 'bottom', '30px' );
     }
   });
+
   //Single Page Navigation
   $('.single-page-nav').singlePageNav({
     offset: $('.single-page-nav').outerHeight(),

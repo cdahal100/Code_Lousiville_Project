@@ -37,7 +37,12 @@ img {
     padding:8px;
     border:none solid #999999;
   }
-}
+
+  .lboxImg {
+    background:none;
+    padding:6px;
+    border:none solid #999999;
+  }
 h1 {
   font-size: 36px;
 }
