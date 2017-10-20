@@ -117,7 +117,7 @@
             transition: max-height 0.8s;
     overflow: hidden;
   }
-  
+
   .single-page-nav.show {
     max-height: 250px;
     overflow: auto;

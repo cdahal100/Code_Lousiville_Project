@@ -19,12 +19,24 @@ body {
   overflow-x: hidden;
 }
 img {
+
   max-width: 100%;
   height: auto;
   border: none;
-  background:none;
-  padding:8px;
-  border:1px solid #999999;
+}
+  .ImgLogo {
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: -15px;
+
+  }
+  .ImgBorder{
+    background:none;
+    padding:8px;
+    border:none solid #999999;
+  }
 }
 h1 {
   font-size: 36px;
@@ -106,8 +118,6 @@ div#team-area-main {
     font-size: 18px;
 }
 
-
-
 /* Start Feature CSS */
 .green-text { color: #178A27; }
 .blue-text { color: #1686C1; }
@@ -154,7 +164,6 @@ div#service-area-main {
     float: left;
     width: 100%;
     margin: 60px 0;
-    /*margin-top:-100px;*/
 }
 .our-service{
   margin:45px 0px 85px;
@@ -245,26 +254,6 @@ input {
   border-radius:10px;
   -webkit-transition: all 0.3s ease;
           transition: all 0.3s ease;
-}
-
-/* Start Footer CSS */
-.footer-content  h1 {
-    color: #666;
-    font-size: 32px;
-    font-style: italic;
-    margin-bottom: 25px;
-    margin-top: 35px;
-}
-.footer-content  p {
-    color: #999;
-    font-style: italic;
-    margin-bottom: 30px;
-}
-.copy {
-    color: #666;
-    font-size: 12px;
-    margin-bottom: 30px;
-    margin-top: 10px;
 }
 
 /* Slick Nav CSS */
@@ -371,4 +360,141 @@ none repeat scroll 0 0;
 }
 .navbar .navbar-collapse {
     text-align: center;
+}
+
+/* Start Footer CSS */
+.footer-distributed{
+ background-color: rgb(100, 100, 100);
+ box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+ box-sizing: border-box;
+ width: 100%;
+ text-align: left;
+ font: bold 16px sans-serif;
+ padding: 55px 50px;
+ margin-top: -5px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+ display: inline-block;
+ vertical-align: top;
+}
+
+/* Footer left */
+.footer-distributed .footer-left{
+ width: 43%;
+}
+.copyrights{
+  color: white;
+}
+
+.footer-distributed .footer-left p a{
+ color:  #ffffff;
+ text-decoration: none;;
+}
+
+.footer-distributed .footer-left p a:hover{
+  color: red;
+}
+
+.footer-distributed .footer-company-name{
+ color:  #FFFF00;
+ font-size: 14px;
+ font-style: italic;
+ font-weight: normal;
+ margin-left: 2%;
+}
+
+/* Footer Center */
+.footer-distributed .footer-center{
+ width: 33%;
+}
+
+.footer-distributed .footer-center i{
+ background-color: #ffffff;
+ color: #FF0000;
+ font-size: 25px;
+ width: 38px;
+ height: 38px;
+ border-radius: 50%;
+ text-align: center;
+ line-height: 42px;
+ margin: 10px 15px;
+ vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+ font-size: 17px;
+ line-height: 33px;
+}
+
+.footer-distributed .footer-center p{
+ display: inline-block;
+ color: #ffffff;
+ vertical-align: middle;
+ margin:0;
+}
+
+.footer-distributed .footer-center p span{
+ display:block;
+ font-weight: normal;
+ font-size:14px;
+ line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+ color:  #ffffff;
+ text-decoration: none;;
+}
+
+.footer-distributed .footer-center p a:hover{
+  color: red;
+}
+
+/* Footer Right */
+.footer-distributed .footer-right{
+ width: 22%;
+}
+
+.footer-distributed .footer-company-about{
+ line-height: 20px;
+ color: #a89ca2;
+ font-size: 13px;
+ font-style: italic;
+ text-align: justify;
+ text-justify: inter-word;
+ font-weight: normal;
+ margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+ display: block;
+ color:   #ffffff;
+ font-size: 14px;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+ margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+ display: inline-block;
+ width: 35px;
+ height: 35px;
+ cursor: pointer;
+ background-color:  #ffffff;
+ border-radius: 2px;
+ font-size: 20px;
+ color: #FF0000;
+ text-align: center;
+ line-height: 35px;
+ margin-right: 3px;
+ margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover{
+  color:black;
 }
