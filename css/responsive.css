@@ -131,6 +131,13 @@
     padding-left: 0;
   }
 }
+
+@media screen and (min-width: 761px) {
+	.caption {
+		width: 60%;
+	}
+}
+
   /*    Wide Mobile Layout: 480px. */
   @media only screen and (min-width: 480px) and (max-width: 767px) {
     .header-content h1 {
@@ -157,4 +164,69 @@
     background-color: #333;
     text-align: center;
     margin-top: 3%;
+  }
+
+  /*******Image Gallary*************/
+  /*two column*/
+  @media screen and (min-width: 20em) {
+  	.gallery div {
+  		width: 48%;
+  	}
+  }
+
+
+  /*three column*/
+  @media screen and (min-width: 40em) {
+  	.gallery div {
+  		width: 32%;
+  	}
+  }
+
+  /*four column*/
+  @media screen and (min-width: 75em) {
+  	.gallery div {
+  		width: 23.8%;
+  	}
+  }
+
+
+  /*five column*/
+  @media screen and (min-width: 100em) {
+  	.gallery div {
+  		width: 18.8%;
+          max-width: 32%;
+  	}
+  }
+
+
+  /*two column*/
+  @media screen and (min-width: 20em) {
+  	.gallery div {
+  		width: 48%;
+  	}
+  }
+
+
+  /*three column*/
+  @media screen and (min-width: 40em) {
+  	.gallery div {
+  		width: 32%;
+  	}
+  }
+
+
+  /*four column*/
+  @media screen and (min-width: 75em) {
+  	.gallery div {
+  		width: 23.8%;
+  	}
+  }
+
+
+  /*five column*/
+  @media screen and (min-width: 100em) {
+  	.gallery div {
+  		width: 18.8%;
+          max-width: 32%;
+  	}
   }

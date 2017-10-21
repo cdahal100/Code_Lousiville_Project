@@ -504,13 +504,7 @@ none repeat scroll 0 0;
   color:black;
 }
 
-
-/***************************
-****************************
-IMAGE GALLERY
-****************************
-***************************/
-
+/***********IMAGE GALLERY********/
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
@@ -521,40 +515,6 @@ IMAGE GALLERY
 	flex: auto;
 	font-size: 0; /* closes margins */
 }
-
-
-/*two column*/
-@media screen and (min-width: 20em) {
-	.gallery div {
-		width: 48%;
-	}
-}
-
-
-/*three column*/
-@media screen and (min-width: 40em) {
-	.gallery div {
-		width: 32%;
-	}
-}
-
-
-/*four column*/
-@media screen and (min-width: 75em) {
-	.gallery div {
-		width: 23.8%;
-	}
-}
-
-
-/*five column*/
-@media screen and (min-width: 100em) {
-	.gallery div {
-		width: 18.8%;
-        max-width: 32%;
-	}
-}
-
 .gallery img {
 	width: 100%;
 	-webkit-transition: all .5s ease;
@@ -569,12 +529,7 @@ IMAGE GALLERY
 }
 
 
-/***************************
-****************************
-LIGHTBOX
-****************************
-***************************/
-
+/***********LIGHTBOX**********/
 .lightbox {
 	display: flex;
 	flex-direction: column; /* displays captions below image */
@@ -600,10 +555,4 @@ LIGHTBOX
 	width: 90%;
 	text-align: center;
 	color: #eee;
-}
-
-@media screen and (min-width: 761px) {
-	.caption {
-		width: 60%;
-	}
 }
