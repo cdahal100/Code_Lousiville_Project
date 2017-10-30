@@ -525,7 +525,7 @@ none repeat scroll 0 0;
 }
 
 .gallery img:hover {
-	filter: brightness(70%);
+	filter: brightness(50%);
 }
 
 
@@ -548,6 +548,7 @@ none repeat scroll 0 0;
 	display: block;
 	margin: 0 auto;
 	max-width: 80%;
+  max-height: 90%
 }
 
 .lightbox .caption {
