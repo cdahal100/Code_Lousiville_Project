@@ -136,6 +136,9 @@
 	.caption {
 		width: 60%;
 	}
+  .footer {
+		margin-bottom: 0;
+  }
 }
 
   /*    Wide Mobile Layout: 480px. */
@@ -229,4 +232,15 @@
   		width: 18.8%;
           max-width: 32%;
   	}
+  }
+
+  footer {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #333;
+    text-align: center;
+    margin-top: 3%;
   }

@@ -367,125 +367,17 @@ none repeat scroll 0 0;
     text-align: center;
 }
 
-/* Start Footer CSS */
-.footer-distributed{
- background-color: rgb(100, 100, 100);
- box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
- box-sizing: border-box;
- width: 100%;
- text-align: left;
- font: bold 16px sans-serif;
- padding: 55px 50px;
- margin-top: -5px;
+/*Footer*/
+.footer{
+  margin-top: auto;
 }
-
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
- display: inline-block;
- vertical-align: top;
-}
-
-/* Footer left */
-.footer-distributed .footer-left{
- width: 43%;
-}
-.copyrights{
+.copyrights {
   color: white;
 }
-
-.footer-distributed .footer-left p a{
- color:  #ffffff;
- text-decoration: none;;
+.footer-icons {
+ margin-top: 20px;
 }
-
-.footer-distributed .footer-left p a:hover{
-  color: red;
-}
-
-.footer-distributed .footer-company-name{
- color:  #FFFF00;
- font-size: 14px;
- font-style: italic;
- font-weight: normal;
- margin-left: 2%;
-}
-
-/* Footer Center */
-.footer-distributed .footer-center{
- width: 33%;
-}
-
-.footer-distributed .footer-center i{
- background-color: #ffffff;
- color: #FF0000;
- font-size: 25px;
- width: 38px;
- height: 38px;
- border-radius: 50%;
- text-align: center;
- line-height: 42px;
- margin: 10px 15px;
- vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope{
- font-size: 17px;
- line-height: 33px;
-}
-
-.footer-distributed .footer-center p{
- display: inline-block;
- color: #ffffff;
- vertical-align: middle;
- margin:0;
-}
-
-.footer-distributed .footer-center p span{
- display:block;
- font-weight: normal;
- font-size:14px;
- line-height:2;
-}
-
-.footer-distributed .footer-center p a{
- color:  #ffffff;
- text-decoration: none;;
-}
-
-.footer-distributed .footer-center p a:hover{
-  color: red;
-}
-
-/* Footer Right */
-.footer-distributed .footer-right{
- width: 22%;
-}
-
-.footer-distributed .footer-company-about{
- line-height: 20px;
- color: #a89ca2;
- font-size: 13px;
- font-style: italic;
- text-align: justify;
- text-justify: inter-word;
- font-weight: normal;
- margin: 0;
-}
-
-.footer-distributed .footer-company-about span{
- display: block;
- color:   #ffffff;
- font-size: 14px;
- font-weight: bold;
- margin-bottom: 20px;
-}
-
-.footer-distributed .footer-icons{
- margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a{
+.footer-icons a{
  display: inline-block;
  width: 35px;
  height: 35px;
@@ -499,8 +391,7 @@ none repeat scroll 0 0;
  margin-right: 3px;
  margin-bottom: 5px;
 }
-
-.footer-distributed .footer-icons a:hover{
+.footer-icons a:hover{
   color:black;
 }
 
